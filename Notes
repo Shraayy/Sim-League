@@ -1,0 +1,17 @@
+- Problem
+    * Technology, like machine learning, can be incredibly helpful in forecasting how sports teams will do when pitted
+    against each other. Create a program that uses past team data to make a prediction on how each team will perform
+    this season.
+
+- Output
+    * Results of each team's home games
+    * Each teams wins and losses for the season
+
+- Requirements
+    * Create a Team class with:
+        * The team's name, total wins, total losses, season wins and season losses stored as attributes
+        * A method that takes a competing team, simulates who will win the match and updates each team's wins and losses accordingly
+        * A method that displays their name and current season's wins and losses
+    * Use each row of data in team_history.csv to create a new Team instance
+    * Have each Team instance compete against every other team and display who won (This means that each team will face each other twice)
+    * Display each team's wins and losses for the season
